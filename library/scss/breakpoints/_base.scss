@@ -156,8 +156,9 @@ HEADER STYLES
         height: auto;
 	}
 
-
-
+.site-title {
+      text-transform: uppercase;
+}
 .advice {
     display: inline-block;
 
@@ -346,13 +347,8 @@ POSTS & CONTENT STYLES
         }
 
 		.page-title {
-            background: #d31145 url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/titlebg.png) no-repeat left top;
-            color: #fff;
-            font-size: 1.5em;
             text-transform: uppercase;
             padding: 0 1em;
-            font-family: "Century Gothic",Helvetica,sans-serif;
-            float: left;
         }
 
 .sub-link {

@@ -1585,6 +1585,9 @@ HEADER STYLES
   max-width: 100%;
   height: auto; }
 
+.site-title {
+  text-transform: uppercase; }
+
 .advice {
   display: inline-block;
   font-size: .75em;
@@ -1709,13 +1712,8 @@ POSTS & CONTENT STYLES
   font-weight: bold; }
 
 .page-title {
-  background: #d31145 url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/titlebg.png) no-repeat left top;
-  color: #fff;
-  font-size: 1.5em;
   text-transform: uppercase;
-  padding: 0 1em;
-  font-family: "Century Gothic",Helvetica,sans-serif;
-  float: left; }
+  padding: 0 1em; }
 
 .sub-link {
   margin-top: 0; }
