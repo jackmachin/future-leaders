@@ -137,16 +137,21 @@ function bones_scripts_and_styles() {
 
 		// ie-only style sheet
 		wp_register_style( 'guybrush-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
+      
+        wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic');
 
 		//adding scripts file in the footer
 		wp_register_script( 'guybrush-js', get_stylesheet_directory_uri() . '/library/js/min/scripts.min.js', array( 'jquery' ), '', true );
 
-		// enqueue styles and scripts
-
+		// enqueue styles 
+      
 		wp_enqueue_style( 'guybrush-stylesheet' );
 		wp_enqueue_style( 'guybrush-ie-only' );
+        wp_enqueue_style( 'googleFonts');
 
         $wp_styles->add_data( 'guybrush-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
+
+        // and scripts
 
         wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'guybrush-modernizr' );
