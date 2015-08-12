@@ -1584,11 +1584,6 @@ HEADER STYLES
   max-width: 100%;
   height: auto; }
 
-.site-title {
-  text-transform: uppercase; }
-  .site-title a:hover {
-    text-decoration: none; }
-
 .advice {
   display: inline-block;
   font-size: .75em;
