@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: New Homepage
+ Template Name: Home
  *
 */
 ?>
@@ -25,16 +25,6 @@
                                 the_content();
                             ?>
                         </div>
-
-                        <?php if( get_field('feature-box') ): ?>
-                            <section class="feature-box" style="color:<?php the_field('text-colour');?>; background-color:<?php the_field('background-colour');?>">
-                                <h1 class="feature-box-title section-title"><?php the_field('feature-box-title'); ?></h1>
-
-                                    <div class="entry-content feature-box-content">
-                                        <?php the_field ('feature-box-content');?>
-                                    </div>
-                            </section>
-                        <?php endif; ?>
 
                     </article>
 
