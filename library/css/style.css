@@ -1713,7 +1713,8 @@ POSTS & CONTENT STYLES
   font-weight: bold; }
 
 .page-title {
-  font-size: 2em; }
+  font-size: 2em;
+  color: #d2232a; }
 
 .sub-link {
   margin-top: 0; }
