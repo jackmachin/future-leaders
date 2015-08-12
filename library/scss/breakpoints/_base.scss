@@ -155,6 +155,10 @@ HEADER STYLES
 
 .site-title {
     text-transform: uppercase;
+
+    a:hover {
+        text-decoration: none;
+    }
 }
 .advice {
     display: inline-block;

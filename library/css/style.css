@@ -1586,6 +1586,8 @@ HEADER STYLES
 
 .site-title {
   text-transform: uppercase; }
+  .site-title a:hover {
+    text-decoration: none; }
 
 .advice {
   display: inline-block;
