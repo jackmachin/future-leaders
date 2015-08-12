@@ -2,7 +2,7 @@
 
 				<div id="inner-footer" class="wrapper">
 
-                    <p class="legal">Footer</p>
+                    	<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
 				</div>
 
