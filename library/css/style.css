@@ -2213,9 +2213,9 @@ SIDEBARS & ASIDES
   color: #fff;
   text-shadow: 0 -1px 1px #830d2d;
   background: #d2232a;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
   -moz-box-shadow: 0 1px 1px #999;
   -webkit-box-shadow: 0 1px 1px #999;
   border-bottom: 1px solid #575757;
@@ -2227,10 +2227,8 @@ SIDEBARS & ASIDES
     font-size: 1.1em; }
 
 .tab-title {
-  font-size: 1.7em;
-  font-weight: bold;
-  margin: 0;
-  line-height: 2em; }
+  font-size: 1.5em;
+  margin: 0; }
 
 .tab-purple {
   background-color: #a21038; }
