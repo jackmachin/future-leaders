@@ -144,19 +144,17 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {
-	background-color: $header-bg;
-}
+.header {}
 
-.logo-container {
-}
+.logo-container {}
+
 	.logo {
 		max-width: 100%;
         height: auto;
 	}
 
 .site-title {
-      text-transform: uppercase;
+    text-transform: uppercase;
 }
 .advice {
     display: inline-block;
