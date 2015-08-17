@@ -62,7 +62,11 @@
                 </div>
                 <?php get_sidebar ('header');?>
 
-                <nav role="navigation" class="navigation">
+                <?php if (is_home ()) {}
+
+                else  {?>
+
+                                <nav role="navigation" class="navigation">
 
                   <?php wp_nav_menu(array(
                     'container' => false,                           // remove nav container
@@ -79,6 +83,9 @@
                   )); ?>
 
                 </nav>
+
+                <?php } ?>
+
             </div>
 
         </header>
