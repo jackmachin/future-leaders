@@ -1580,6 +1580,9 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
+.logo-container {
+  margin-top: 1.5em; }
+
 .logo {
   max-width: 100%;
   height: auto; }
