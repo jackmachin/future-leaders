@@ -62,10 +62,6 @@
                 </div>
                 <?php get_sidebar ('header');?>
 
-                <?php if (is_front_page ()) {}
-
-                else  {?>
-
                     <nav role="navigation" class="navigation">
 
                         <?php wp_nav_menu(array(
@@ -83,8 +79,6 @@
                         )); ?>
 
                     </nav>
-
-                <?php } ?>
 
             </div>
 
