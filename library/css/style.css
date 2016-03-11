@@ -941,7 +941,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 .blue-btn, .comment-reply-link, #submit {
   display: inline-block;
   position: relative;
-  font-family: "Open Sans", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Source Sans Pro", Tahoma, Verdana, Arial, sans-serif;
   text-decoration: none;
   color: #fff;
   font-size: 0.9em;
@@ -1021,7 +1021,7 @@ textarea,
   box-shadow: none;
   border: 0;
   width: 100%;
-  font-family: "Open Sans", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Source Sans Pro", Tahoma, Verdana, Arial, sans-serif;
   background-color: #ddd;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out; }
@@ -1466,7 +1466,7 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Open Sans", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Source Sans Pro", Tahoma, Verdana, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   color: #000;
