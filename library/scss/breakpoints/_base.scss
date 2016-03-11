@@ -479,9 +479,12 @@ POSTS & CONTENT STYLES
 			}
 
 			th {
-				background-color: $light-gray;
+				background-color: $red;
 				border-bottom: 1px solid $gray;
 				border-right: 1px solid $gray;
+                color: #fff;
+                font-weight: bold;
+                text-align:center;
 
 				&:last-child {
 					border-right: 0;
