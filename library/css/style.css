@@ -1015,7 +1015,7 @@ textarea,
   padding: 0 12px;
   margin-bottom: 14px;
   font-size: 1em;
-  color: #0d0809;
+  color: #000;
   border-radius: 3px;
   vertical-align: middle;
   box-shadow: none;
@@ -1469,7 +1469,7 @@ body {
   font-family: "Open Sans", Tahoma, Verdana, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #0d0809;
+  color: #000;
   background-color: #fbf3f9;
   -webkit-font-smoothing: antialiased; }
 
@@ -1818,7 +1818,7 @@ POSTS & CONTENT STYLES
     max-width: 100%;
     height: auto; }
   .entry-content pre {
-    background: #0d0809;
+    background: #000;
     color: #f8f9fa;
     font-size: 0.9em;
     padding: 1.5em;
@@ -1976,10 +1976,10 @@ PAGE NAVI STYLES
       color: #fbf3f9; }
   .pagination .current {
     cursor: default;
-    color: #0d0809; }
+    color: #000; }
     .pagination .current:hover, .pagination .current:focus {
       background-color: #fbf3f9;
-      color: #0d0809; }
+      color: #000; }
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
@@ -2118,7 +2118,7 @@ COMMENT STYLES
     max-width: 100%;
     height: auto; }
   .comment_content pre {
-    background: #0d0809;
+    background: #000;
     color: #f8f9fa;
     font-size: 0.9em;
     padding: 1.5em;
@@ -2153,7 +2153,7 @@ COMMENT FORM STYLES
   font-style: italic;
   margin: 0; }
   .logged-in-as a {
-    color: #0d0809; }
+    color: #000; }
 
 .comment-form-comment {
   margin: 1.5em 0 0.75em; }
