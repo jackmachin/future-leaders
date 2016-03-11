@@ -1551,6 +1551,7 @@ h1, .h1 {
   line-height: 1.333em; }
 
 h2, .h2 {
+  color: #d2232a;
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em; }
