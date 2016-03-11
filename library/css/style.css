@@ -2278,6 +2278,9 @@ FOOTER STYLES
 	view.
 	*/
 /* end .footer-links */
+.copyright {
+  padding-top: 1em; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
