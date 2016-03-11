@@ -1780,7 +1780,7 @@ POSTS & CONTENT STYLES
       text-transform: uppercase;
       letter-spacing: 1px; }
   .entry-content tr {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #999;
     background-color: #fff; }
     .entry-content tr:nth-child(even) {
       background-color: #eee; }
